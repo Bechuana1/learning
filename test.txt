@@ -1,0 +1,4 @@
+Files can be opened in different modes. In the above example the file is opened as read-only. To open an existing
+file for reading only use r. If you want to read that file as bytes use rb. To append data to an existing file use a. Use
+w to create a file or overwrite any existing files of the same name. You can use r+ to open a file for both reading and
+writing. The first argument of open() is the filename, the second is the mode
